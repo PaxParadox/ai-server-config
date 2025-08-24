@@ -1,0 +1,21 @@
+# Ignore sensitive files
+.env
+*.key
+*.pem
+*.cert
+
+# Ignore data directories
+/data/
+/ollama/
+/webui/
+/searxng/
+/n8n/
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore temporary files
+*.tmp
+*.swp
+*~
